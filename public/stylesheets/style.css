@@ -1,0 +1,115 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+/* line 4, ../scss/com.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 5, ../scss/com.scss */
+body {
+  line-height: 1;
+}
+
+/* line 6, ../scss/com.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 7, ../scss/com.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 8, ../scss/com.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 9, ../scss/com.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+/* line 10, ../scss/com.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 11, ../scss/com.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 12, ../scss/com.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 13, ../scss/com.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 14, ../scss/com.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 15, ../scss/com.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 16, ../scss/com.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 17, ../scss/com.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/* line 18, ../scss/com.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 2, ../scss/style.scss */
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* line 7, ../scss/style.scss */
+a {
+  color: #00B7FF;
+}
+
+/* line 11, ../scss/style.scss */
+.red {
+  color: red;
+}

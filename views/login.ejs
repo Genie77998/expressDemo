@@ -1,0 +1,17 @@
+
+  <% include includePage/header.html %>
+    <h1>请登录</h1>
+    <form method="post" name="loginIn" >
+        <li>
+            <input type="text" value="" name="username" require autocomplete="off" />
+        </li>
+        <li>
+            <input type="password" value="" name="password" require autocomplete="off" />
+        </li>
+        <li class="submits">
+            <input class="submit" type="submit" value="登录" /><span class="red" id="tips">     <%= message %> </span>
+        </li>
+    </form>
+    <% include includePage/footer.html %>
+    <script type="text/javascript" src="/javascripts/lib/require/require.min.js" data-main="/javascripts/dist/login"></script>
+
